@@ -187,7 +187,6 @@ The repository follows the engineering-materials structure used for WRO Future E
 | `schemes` | Electrical and electromechanical schematics |
 | `src` | Competition source code |
 | `models` | CAD and manufacturing models |
-| `other` | Supporting engineering materials |
 
 ---
 
