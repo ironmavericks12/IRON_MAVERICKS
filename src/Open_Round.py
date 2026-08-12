@@ -184,23 +184,19 @@ EDGE_IGNORE_PERCENT = 10
 EDGE_IGNORE_PX = int(WIDTH * EDGE_IGNORE_PERCENT / 100)
 
 BLACK_LOWER = np.array([0,118,118])
-BLACK_UPPER = np.array([75,138,138])
+BLACK_UPPER = np.array([175,10,138])
 
 BLUE_LOWER = np.array([0, 120, 80])
-BLUE_UPPER = np.array([255, 150, 120])
+BLUE_UPPER = np.array([25, 10, 12])
 
-ORANGE_LOWER = np.array([50, 140, 150])
-ORANGE_UPPER = np.array([220, 195, 220])
+ORANGE_LOWER = np.array([50, 110, 10])
+ORANGE_UPPER = np.array([0, 15, 220])
 
 picam2 = Picamera2()
 
 config = picam2.create_preview_configuration(
     main={"size": (WIDTH, HEIGHT), "format": "RGB888"}
 )
-
-picam2.configure(config)
-
-picam2.start()
 
 print("Auto adjusting camera...")
 picam2.set_controls({
