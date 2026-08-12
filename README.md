@@ -14,9 +14,9 @@ This repository presents our team's robot, engineering approach, competition sof
 
 **Team Name:** Iron Mavericks  
 **Country:** India  
-**School / Organization:** ROBOFUN LABS  
-**Coach:** `Mohit Solanki`  
+**School / Organization:** ROBOFUN LAB  
 **Team Members:** `Ahan Singhal, Sonakshi Sanyal, Udaiveer Singh`
+**Coach:** `Mohit Solanki`  
 
 Iron Mavericks is built around teamwork and practical engineering. Each stage of the robot's development involves designing, building, programming, testing and improving the system.
 
