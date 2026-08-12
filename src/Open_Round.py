@@ -183,10 +183,10 @@ ROI_TOP_IGNORE = 120
 EDGE_IGNORE_PERCENT = 10
 EDGE_IGNORE_PX = int(WIDTH * EDGE_IGNORE_PERCENT / 100)
 
-BLACK_LOWER = np.array([0,118,118])
-BLACK_UPPER = np.array([175,10,138])
+BLACK_LOWER = np.array([0,11,18])
+BLACK_UPPER = np.array([175,10,13])
 
-BLUE_LOWER = np.array([0, 120, 80])
+BLUE_LOWER = np.array([0, 10, 80])
 BLUE_UPPER = np.array([25, 10, 12])
 
 ORANGE_LOWER = np.array([50, 110, 10])
